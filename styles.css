@@ -1,0 +1,32 @@
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #0a0f14;
+}
+::-webkit-scrollbar-thumb {
+    background: #10b981;
+    border-radius: 4px;
+}
+
+/* Animation Classes */
+.reveal {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.8s ease-out;
+}
+.reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Hero Text Shadow */
+.text-glow {
+    text-shadow: 0 0 20px rgba(16, 185, 129, 0.3);
+}
+
+/* Button Glow */
+.btn-glow:hover {
+    box-shadow: 0 0 15px rgba(6, 182, 212, 0.5);
+}
