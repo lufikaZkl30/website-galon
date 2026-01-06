@@ -11,6 +11,9 @@
     <!-- Fonts: Montserrat & Playfair Display -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;800&family=Playfair+Display:ital,wght@1,400&display=swap" rel="stylesheet">
     
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="icon-galon.png" type="image/png">
+
     <!-- Lucide Icons -->
     <script src="https://unpkg.com/lucide@latest"></script>
 
@@ -302,51 +305,86 @@
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                <!-- Location 1: Main Highlight (Primary Blue) -->
-                <div class="bg-surface p-8 rounded-lg border-l-4 border-primary reveal group hover:bg-gray-800 transition-colors">
-                    <div class="flex justify-between items-start mb-4">
-                        <h3 class="text-2xl font-bold text-white">Cabang Utama</h3>
-                        <span class="bg-primary/20 text-primary text-xs px-2 py-1 rounded">PUSAT</span>
-                    </div>
-                    <p class="text-gray-400 mb-2 flex gap-2 items-center">
-                        <i data-lucide="map-pin" class="h-4 w-4 text-gray-500"></i> Jl. Pegunungan Biru No. 12, Sektor 5
-                    </p>
-                    <p class="text-gray-400 mb-6 flex gap-2 items-center">
-                        <i data-lucide="clock" class="h-4 w-4 text-gray-500"></i> 07:00 - 21:00 WIB
-                    </p>
-                    <div class="flex gap-4">
-                        <a href="#" class="flex-1 text-center py-3 bg-primary text-white font-bold rounded hover:bg-sky-500 transition-colors flex items-center justify-center gap-2">
-                            <i data-lucide="message-circle" class="h-4 w-4"></i> WhatsApp
-                        </a>
-                        <a href="#" class="flex-1 text-center py-3 border border-gray-600 text-gray-300 font-bold rounded hover:border-gray-400 hover:text-white transition-colors flex items-center justify-center gap-2">
-                            <i data-lucide="map" class="h-4 w-4"></i> Maps
-                        </a>
-                    </div>
+
+            <!-- Location 1 -->
+            <div class="bg-surface p-8 rounded-lg border-l-4 border-primary reveal group hover:bg-gray-800 transition-colors">
+                <div class="flex justify-between items-start mb-4">
+                    <h3 class="text-2xl font-bold text-white">Cabang Utama</h3>
+                    <span class="bg-primary/20 text-primary text-xs px-2 py-1 rounded">PUSAT</span>
                 </div>
 
-                <!-- Location 2: Secondary Highlight (Nature/Green for variety) -->
-                <div class="bg-surface p-8 rounded-lg border-l-4 border-nature reveal group hover:bg-gray-800 transition-colors" style="transition-delay: 100ms;">
-                    <div class="flex justify-between items-start mb-4">
-                        <h3 class="text-2xl font-bold text-white">Cabang Selatan</h3>
-                        <span class="bg-nature/20 text-nature text-xs px-2 py-1 rounded">BARU</span>
-                    </div>
-                    <p class="text-gray-400 mb-2 flex gap-2 items-center">
-                        <i data-lucide="map-pin" class="h-4 w-4 text-gray-500"></i> Komp. Griya Asri Blok D, No. 88
-                    </p>
-                    <p class="text-gray-400 mb-6 flex gap-2 items-center">
-                        <i data-lucide="clock" class="h-4 w-4 text-gray-500"></i> 08:00 - 22:00 WIB
-                    </p>
-                    <div class="flex gap-4">
-                        <!-- Tombol WA Hijau di sini untuk variasi -->
-                        <a href="#" class="flex-1 text-center py-3 bg-nature text-white font-bold rounded hover:bg-emerald-500 transition-colors flex items-center justify-center gap-2">
-                            <i data-lucide="message-circle" class="h-4 w-4"></i> WhatsApp
-                        </a>
-                        <a href="#" class="flex-1 text-center py-3 border border-gray-600 text-gray-300 font-bold rounded hover:border-gray-400 hover:text-white transition-colors flex items-center justify-center gap-2">
-                            <i data-lucide="map" class="h-4 w-4"></i> Maps
-                        </a>
-                    </div>
+                <p class="text-gray-400 mb-2 flex gap-2 items-center">
+                    <i data-lucide="map-pin" class="h-4 w-4 text-gray-500"></i>
+                    20 Jl. Lb. Asih Bekasi, Jawa Barat
+                </p>
+
+                <p class="text-gray-400 mb-6 flex gap-2 items-center">
+                    <i data-lucide="clock" class="h-4 w-4 text-gray-500"></i>
+                    10:00 - 19:00 WIB
+                </p>
+
+                <div class="flex gap-4">
+                    <!-- WhatsApp -->
+                    <a 
+                    href="https://wa.me/6281234567890"
+                    target="_blank"
+                    class="flex-1 py-3 bg-primary text-white font-bold rounded hover:bg-sky-500 transition-colors flex items-center justify-center gap-2">
+                        <i data-lucide="message-circle" class="h-4 w-4"></i>
+                        WhatsApp
+                    </a>
+
+                    <!-- Google Maps -->
+                    <a 
+                    href="https://maps.app.goo.gl/oSp8trRap1CjjTAaA"
+                    target="_blank"
+                    class="flex-1 py-3 border border-gray-600 text-gray-300 font-bold rounded hover:border-gray-400 hover:text-white transition-colors flex items-center justify-center gap-2">
+                        <i data-lucide="map" class="h-4 w-4"></i>
+                        Maps
+                    </a>
                 </div>
             </div>
+
+            <!-- Location 2 -->
+            <div class="bg-surface p-8 rounded-lg border-l-4 border-nature reveal group hover:bg-gray-800 transition-colors" style="transition-delay:100ms;">
+                <div class="flex justify-between items-start mb-4">
+                    <h3 class="text-2xl font-bold text-white">Cabang Kedua</h3>
+                    <span class="bg-nature/20 text-nature text-xs px-2 py-1 rounded">BARU</span>
+                </div>
+
+                <p class="text-gray-400 mb-2 flex gap-2 items-center">
+                    <i data-lucide="map-pin" class="h-4 w-4 text-gray-500"></i>
+                    Jl. Alam Pesona Wanajaya
+                </p>
+
+                <p class="text-gray-400 mb-6 flex gap-2 items-center">
+                    <i data-lucide="clock" class="h-4 w-4 text-gray-500"></i>
+                    08:00 - 21:00 WIB
+                </p>
+
+                <div class="flex gap-4">
+                    <!-- WhatsApp -->
+                    <a 
+                    href="https://wa.me/6289876543210"
+                    target="_blank"
+                    class="flex-1 py-3 bg-nature text-white font-bold rounded hover:bg-emerald-500 transition-colors flex items-center justify-center gap-2">
+                        <i data-lucide="message-circle" class="h-4 w-4"></i>
+                        WhatsApp
+                    </a>
+
+                    <!-- Google Maps -->
+                    <a 
+                    href="https://maps.app.goo.gl/QFfUdG6hdm9PLKMo9"
+                    target="_blank"
+                    class="flex-1 py-3 border border-gray-600 text-gray-300 font-bold rounded hover:border-gray-400 hover:text-white transition-colors flex items-center justify-center gap-2">
+                        <i data-lucide="map" class="h-4 w-4"></i>
+                        Maps
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+
         </div>
     </section>
 
